@@ -2,13 +2,13 @@
 
 /**
  * print_alphabet_x10 - print lowercase alphabet ten times
- * Return: Always 0 (success)
+ * Return: 0
  */
 
 void print_alphabet_x10(void)
 {
-	char alpha;
-	int counter;
+	char alpha:
+	int counter:
 
 	for (counter = 1; counter <= 10; counter++)
 	{
@@ -17,4 +17,5 @@ void print_alphabet_x10(void)
 			_putchar(alpha);
 		}
 		_putchar('\n');
+	}
 }
