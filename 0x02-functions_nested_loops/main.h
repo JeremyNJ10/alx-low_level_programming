@@ -76,5 +76,10 @@ void times_table(void);
  * Return: sum
  */
 
+int add(int a, int b);
+/**
+ * print_to_98 - print numbers n to 98
+ * @n: integer argument
+ */
 
 #endif
