@@ -50,4 +50,12 @@ int print_sign(int n);
  * Return: absolute value
  */
 
+int _abs(int);
+/**
+ * print_last_digit - print last digit of integer
+ * @int: integer
+ * Return: last digit of number
+ */
+
+
 #endif
