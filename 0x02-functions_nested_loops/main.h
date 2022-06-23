@@ -63,5 +63,11 @@ void print_last_digit(init);
  * Description: print minutes 00:00 to 23:59
  */
 
+void jack_bauer(void);
+/**
+ * times_table - print multiplication table
+ */
+
+
 
 #endif
