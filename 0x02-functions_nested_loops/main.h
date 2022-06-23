@@ -57,4 +57,24 @@ int _abs(int);
  * Return: last digit of number
  */
 
+int print_last_digit(int);
+/**
+ * jack_bauer - print every minute of a day
+ * Description: print minutes 00:00 to 23:59
+ */
+
+void jack_bauer(void);
+/**
+ * times_table - print multiplication table
+ */
+
+void times_table(void);
+/**
+ * add - add two integers
+ * @a: first integer
+ * @b: second integer
+ * Return: sum
+ */
+
+
 #endif
