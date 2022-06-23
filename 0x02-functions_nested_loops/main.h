@@ -57,5 +57,10 @@ int _abs(int);
  * Return: last digit of number
  */
 
+void jack_bauer(void);
+/**
+ * times_table - print multiplication table
+ */
+
 
 #endif
