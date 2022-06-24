@@ -17,6 +17,5 @@ char *rot13(char *src)
 		if (src[i] >= 'A' && src[i] <= 'z')
 			src[i] = c[src[i] - 'A'];
 	}
-
-	return (scr);
+	return (src);
 }
