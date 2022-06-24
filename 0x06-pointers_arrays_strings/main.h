@@ -1,73 +1,27 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/**
- * _putchar - puts character to standard output
- * @c: character to put to standard output
- */
-
 int _putchar(char c);
 
-/**
- * _memset - fill n bytes of memory with a constant value
- * @s: pointer to memory area
- * @b: constant value
- * @n: number of bytes to fill
- * Return: memory area
- */
+char *_strcat(char *dest, char *src);
 
-char *_memset(char *s, char b, unsigned int n);
+char *_strncat(char *dest, char *src, int n);
 
-/**
- * _memcpy - copy n bytes of memory from source to destination
- * @dest: destination
- * @src: source
- * @n: number of bytes
- * Return: pointer to dest
- */
+char *_strncpy(char *dest, char *src, int n);
 
-char *_memcpy(char *dest, char *src, unsigned int n);
+int _strcmp(char *s1, char *s2);
 
-char *_strchr(char *s, char c);
+void reverse_array(int *a, int n);
 
-/**
- * _strspn - return length of string that matches values consistently
- * @s: string to search
- * @accept: target matches
- * Return: number of bytes consecutively matched
- */
+char *string_toupper(char *);
 
-unsigned int _strspn(char *s, char *accept);
+char *cap_string(char *);
 
-char *_strpbrk(char *s, char *accept);
+char *leet(char *);
 
-/**
- * _strstr - locate and return pointer to first occurence of substring
- * @haystack: string to search
- * @needle: target substring to search for
- * Return: pointer to index of string at first occurence of whole substring
- */
-
-char *_strstr(char *haystack, char *needle);
-
-/**
- * print_diagsums - print sums of diagonals in matrix
- * @a: matrix
- * @size: size of matrix
- */
-
-void print_diagsums(int *a, int size);
-/**
- * set_string - set value of pointer to a char
- * @s: variable of type pointer
- * @to: char
- */
-
-void set_string(char **s, char *to);
+char *rot13(char *);
 
 void print_number(int n);
-
-int _putchar(char);
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 
