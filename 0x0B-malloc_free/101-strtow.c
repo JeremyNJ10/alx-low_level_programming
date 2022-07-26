@@ -8,7 +8,6 @@
  *
  * Return: 1 is c is a whitespace character, otherwise 0
  */
-
 int _isspace(int c)
 {
 	if (c == 0x20 || (c >= 0x09 && c <= 0x0d))
@@ -23,10 +22,8 @@ int _isspace(int c)
  * Return: NULL if memory allocation fails or if str is NULL or empty (""),
  * otherwise return a pointer to the array of words terminated by a NULL
  */
-
 char **strtow(char *str)
 {
-
 	char **words, *pos = str;
 	int w = 0, c;
 
